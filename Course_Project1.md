@@ -58,7 +58,7 @@ and median of the total number of steps taken per day
       geom_histogram(bins =8 , color="white", fill="red")
     p1
 
-![](README_figs/README-unnamed-chunk-5-1.png)
+![](README_figs/README-unnamed-chunk-4-1.png)
 
     # 3.- Mean and median of number of steps taken each day
     df02 <- base01 %>% 
@@ -102,7 +102,7 @@ dataset, contains the maximum number of steps?.
       ylab("Average number of steps")
     p2
 
-![](README_figs/README-unnamed-chunk-7-1.png)
+![](README_figs/README-unnamed-chunk-6-1.png)
 
 Imputing missing values
 -----------------------
@@ -194,7 +194,7 @@ the average of each step in each interval.
       ggtitle("Histogram after missing values are imputed ")
     p3
 
-![](README_figs/README-unnamed-chunk-11-1.png)
+![](README_figs/README-unnamed-chunk-10-1.png)
 
 Are there differences in activity patterns between weekdays and weekends?
 -------------------------------------------------------------------------
@@ -238,4 +238,4 @@ should look like using simulated data.
       ylab("Average number of steps")
     p4
 
-![](README_figs/README-unnamed-chunk-13-1.png)
+![](README_figs/README-unnamed-chunk-12-1.png)
